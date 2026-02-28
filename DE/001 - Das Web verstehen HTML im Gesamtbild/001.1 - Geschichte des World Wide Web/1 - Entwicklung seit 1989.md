@@ -1,100 +1,96 @@
 # Entwicklung seit 1989
 
-### Die Entwicklung seit 1989: Von statischen Dokumenten zur globalen Plattform
+### Entwicklung seit 1989: Vom CERN-Projekt zum globalen Netz
 
-Stell dir vor, es ist das Jahr 1989. Die Welt ist eine andere: Das Internet existiert zwar schon in akademischen und militärischen Kreisen, aber es ist ein kompliziertes, textbasiertes Universum, das für die meisten Menschen unzugänglich ist. In Genf, am europäischen Kernforschungszentrum CERN, sitzt ein britischer Physiker namens Tim Berners-Lee und grübelt über ein Problem. Wie können Tausende von Forschern auf der ganzen Welt ihre Ergebnisse und Dokumente einfach und effizient miteinander teilen, ohne dass jeder ein anderes Computersystem oder eine andere Software benutzt?
+Stell dir eine Welt ohne das Web vor. Kein schnelles Nachschlagen auf Wikipedia, kein Video-Streaming, keine sozialen Netzwerke. Es ist schwer vorstellbar, aber diese Welt ist noch gar nicht so lange her. Die Geschichte des World Wide Web, wie du es heute kennst, beginnt Ende der 1980er-Jahre an einem eher unerwarteten Ort: in einem der größten Forschungszentren für Teilchenphysik, dem CERN in der Schweiz.
 
-Seine Lösung war nicht nur eine einzelne Erfindung, sondern ein geniales Trio von Technologien, das die Welt für immer verändern sollte:
+#### Die Geburtsstunde am CERN (1989–1993)
 
-1.  **HTML (HyperText Markup Language):** Eine einfache Sprache, um Dokumente zu strukturieren. Mit ihr konnte man Überschriften, Absätze, Listen und vor allem Links definieren.
-2.  **URL (Uniform Resource Locator):** Eine eindeutige Adresse für jedes einzelne Dokument im Netzwerk, so wie eine Postanschrift für ein Haus.
-3.  **HTTP (Hypertext Transfer Protocol):** Das Regelwerk, das festlegte, wie ein Browser eine URL an einen Server sendet und wie der Server das entsprechende HTML-Dokument zurückschickt.
+Im Jahr 1989 arbeitete ein britischer Informatiker namens Tim Berners-Lee am CERN. Er stand vor einem Problem, das viele große Organisationen kennen: Informationen waren auf unzähligen, inkompatiblen Computersystemen verstreut. Ein Forscher in einem Team konnte nicht einfach auf die Dokumente eines anderen Teams zugreifen. Die Suche nach Informationen war mühsam und ineffizient.
 
-1991 ging die erste Webseite der Welt online. Sie lief auf einem NeXT-Computer in Berners-Lees Büro und erklärte, was das World Wide Web ist. Sie war einfach, rein textbasiert, aber sie enthielt die revolutionäre Idee des Hyperlinks – ein Wort, auf das du klicken konntest, um zu einem anderen Dokument zu springen. Das war die Geburtsstunde des Webs, wie wir es kennen.
+Berners-Lees Idee war ebenso einfach wie revolutionär: ein universelles, verlinktes Informationssystem. Er schlug ein System vor, das auf drei fundamentalen Technologien basierte:
 
-#### Die ersten Browser und der Sprung in die Öffentlichkeit
+1.  **HTML (HyperText Markup Language):** Eine einfache Sprache, um Dokumente zu strukturieren und sie miteinander zu verknüpfen (Hyperlinks). Es war nicht dazu gedacht, Dokumente schön aussehen zu lassen, sondern ihnen eine logische Struktur zu geben – mit Überschriften, Absätzen, Listen und vor allem Links.
+2.  **URL (Uniform Resource Locator):** Eine eindeutige Adresse für jedes Dokument im Netz. So wie eine Postanschrift ein Haus findet, sollte eine URL jede Ressource im Web auffindbar machen.
+3.  **HTTP (Hypertext Transfer Protocol):** Ein Protokoll, also ein Satz von Regeln, mit dem ein Computer (der Client, also dein Browser) Dokumente von einem anderen Computer (dem Server) anfordern kann.
 
-Zunächst war das Web eine Angelegenheit für Wissenschaftler. Doch das änderte sich 1993 schlagartig. Das CERN gab die Web-Technologie für die Öffentlichkeit frei, ohne Lizenzgebühren. Im selben Jahr veröffentlichte ein Team an der University of Illinois den ersten grafischen Webbrowser: **Mosaic**.
-
-Mosaic war eine Sensation. Er konnte nicht nur Text, sondern auch Bilder direkt auf einer Seite anzeigen. Plötzlich war das Web nicht mehr nur eine Sammlung von Textdokumenten, sondern ein visuelles Medium. Das war der Moment, in dem das Web aus den Universitäten ausbrach und die Fantasie der Öffentlichkeit eroberte. Schnell gründeten Teile des Mosaic-Teams eine Firma und entwickelten den Nachfolger: **Netscape Navigator**. Mitte der 90er-Jahre war Netscape das Synonym für das Surfen im Web.
-
-#### Der erste Browserkrieg: Chaos und Kreativität
-
-Der Erfolg von Netscape rief Microsoft auf den Plan. 1995 veröffentlichte das Unternehmen den **Internet Explorer**, der direkt in das Windows-Betriebssystem integriert war. Damit begann der erste "Browserkrieg". Beide Unternehmen versuchten, die Nutzer mit immer neuen, exklusiven Funktionen auf ihre Seite zu ziehen.
-
-Diese Zeit war wild und chaotisch. Netscape erfand das `<blink>`-Tag, das Text blinken ließ. Microsoft konterte mit dem `<marquee>`-Tag, das Text über den Bildschirm laufen ließ. Jeder Browser interpretierte HTML, CSS (das damals noch in den Kinderschuhen steckte) und das brandneue JavaScript auf seine eigene Weise.
-
-Für Webentwickler war das ein Albtraum. Du musstest deine Webseite oft zweimal bauen – einmal für Netscape und einmal für den Internet Explorer. Es war üblich, auf Webseiten den Hinweis "Optimiert für Netscape Navigator" oder "Best viewed with Internet Explorer" zu finden.
-
-Ein typisches Stück HTML aus dieser Zeit könnte so ausgesehen haben, vollgestopft mit reinen Präsentations-Tags, die heute als schlechter Stil gelten:
+1990 entwickelte Berners-Lee den ersten Webbrowser, den er passenderweise "WorldWideWeb" nannte, und den ersten Webserver. Weihnachten 1990 ging die erste Webseite online. Das Web war geboren – wenn auch zunächst nur als internes Projekt am CERN. Es war ein rein textbasiertes System, funktional, aber weit entfernt von dem visuellen Erlebnis, das wir heute kennen. Ein frühes HTML-Dokument war extrem schlicht und konzentrierte sich rein auf die Struktur:
 
 ```html
-<html>
-  <body bgcolor="#FFFFFF" text="#000000">
-    <center>
-      <font size="+3" color="blue">
-        Herzlich Willkommen auf meiner Homepage!
-      </font>
-      <br>
-      <marquee>Schaut euch um!</marquee>
-    </center>
-    <p>
-      Hier findet ihr Infos über mein Hobby.
-    </p>
-  </body>
-</html>
+<title>Mein erstes Dokument</title>
+<h1>Hallo Welt</h1>
+<p>Dies ist ein Absatz mit einem <a href="ziel.html">Link</a>.</p>
+<ul>
+    <li>Ein Listenpunkt</li>
+    <li>Noch ein Punkt</li>
+</ul>
 ```
 
-Inmitten dieses Chaos wurde 1994 das **World Wide Web Consortium (W3C)** unter der Leitung von Tim Berners-Lee gegründet. Das Ziel: das Web vor der Zersplitterung zu bewahren und gemeinsame Standards zu entwickeln, an die sich alle Browserhersteller halten sollten. Es war ein langer, mühsamer Kampf um die Seele des offenen Webs.
+#### Die Explosion: Das Web wird grafisch (1993–1995)
 
-#### Die Ära der Webstandards: Ein Ruf nach Ordnung
+Der entscheidende Wendepunkt kam 1993 mit der Veröffentlichung des Mosaic-Browsers. Entwickelt von einem Team um Marc Andreessen am National Center for Supercomputing Applications (NCSA) in den USA, war Mosaic der erste Browser, der Bilder direkt im Text anzeigen konnte, anstatt sie in einem separaten Fenster zu öffnen. Plötzlich war das Web nicht mehr nur Textwüste, sondern ein multimediales Medium. Es wurde bunt, ansprechend und für eine breite Masse verständlich.
 
-Ende der 90er-Jahre, nach dem Platzen der Dotcom-Blase, setzte ein Umdenken ein. Unternehmen erkannten, dass das Web mehr war als eine Spielerei. Es war ein ernstzunehmendes Geschäftsfeld, und dafür brauchte man Stabilität, Zuverlässigkeit und Barrierefreiheit. Der Ruf nach Webstandards wurde lauter.
+Dieser Funke löste eine Explosion aus. Marc Andreessen gründete bald darauf die Firma Netscape und veröffentlichte den Netscape Navigator. Dieser Browser wurde schnell zum dominanten Fenster ins Web und machte die Technologie für Millionen von Menschen zugänglich. Das Web wuchs exponentiell. Jeder, von Unternehmen bis zu Privatpersonen, wollte plötzlich eine eigene "Homepage".
 
-Das W3C veröffentlichte Spezifikationen für HTML 4.01 und später **XHTML 1.0**. XHTML war ein Versuch, HTML strenger und sauberer zu machen, indem man es den Regeln von XML unterwarf. Jeder Tag musste geschlossen werden, alles musste kleingeschrieben werden. Es war eine Reaktion auf den unsauberen Code, der im Browserkrieg entstanden war.
+In diesem Goldrausch der frühen 90er-Jahre war Standardisierung jedoch ein Fremdwort. Netscape begann, eigene, proprietäre HTML-Tags zu erfinden, um Webseiten ansprechender zu gestalten. Berühmt-berüchtigt wurden Tags wie `<blink>`, der Text blinken ließ, oder `<font>`, mit dem man Schriftart und -farbe direkt im HTML festlegen konnte. Das Ziel war klar: Man wollte Entwickler an die eigene Plattform binden. Wenn du die coolsten Features nutzen wolltest, musstest du deine Seite für den Netscape Navigator optimieren.
 
-Gleichzeitig wurde die Trennung von Inhalt, Präsentation und Verhalten zur obersten Maxime. Die goldene Regel lautete:
+#### Die Browserkriege und der Ruf nach Standards (1995–2001)
 
-*   **HTML** ist nur für die Struktur und Bedeutung des Inhalts zuständig.
-*   **CSS (Cascading Style Sheets)** ist ausschließlich für das Aussehen (Farben, Layout, Schriftarten) verantwortlich.
-*   **JavaScript** kümmert sich um die Interaktivität und das Verhalten der Seite.
+Microsoft erkannte die wachsende Bedeutung des Webs und schlug mit dem Internet Explorer zurück, den sie ab 1995 kostenlos mit ihrem Windows-Betriebssystem bündelten. Damit begann der erste "Browserkrieg". Beide Unternehmen, Netscape und Microsoft, versuchten sich gegenseitig mit neuen, proprietären Features zu übertrumpfen.
 
-Diese Trennung machte den Code sauberer, wartbarer und zugänglicher für Menschen mit Behinderungen und für Suchmaschinen.
+Für Webentwickler war dies eine chaotische Zeit. Man musste oft zwei Versionen einer Webseite bauen – eine für Netscape und eine für den Internet Explorer. Überall sah man die berühmten "Best viewed in..."-Banner. Das ursprüngliche Ideal eines universellen, für alle zugänglichen Webs drohte zu zerbrechen.
 
-#### Web 2.0: Du wirst zum Teil des Netzes
+Als Reaktion auf dieses Chaos wurde 1994 das World Wide Web Consortium (W3C) unter der Leitung von Tim Berners-Lee gegründet. Das Ziel des W3C war es, offene Standards zu entwickeln und das Web vor der Fragmentierung zu bewahren. Langsam, aber sicher setzten sich die Bemühungen durch. Ein entscheidender Meilenstein war die Verabschiedung von HTML 4.01 im Jahr 1999. Dieser Standard predigte eine revolutionäre Idee: die **Trennung von Inhalt und Präsentation**.
 
-Mitte der 2000er-Jahre machte ein neuer Begriff die Runde: **Web 2.0**. Es war weniger eine technische Revolution als ein Wandel in der Nutzung des Webs. Das Web wurde von einem reinen "Read-Only"-Medium zu einer "Read-Write"-Plattform. Es ging nicht mehr nur darum, Informationen zu konsumieren, sondern sie selbst zu erstellen und zu teilen.
+-   **HTML** sollte nur noch für die **Struktur** des Inhalts zuständig sein (Überschriften, Absätze, Listen etc.).
+-   **CSS (Cascading Style Sheets)**, eine neue Sprache, sollte sich ausschließlich um die **Darstellung** kümmern (Farben, Schriftarten, Layout).
+-   **JavaScript** war für die **Interaktivität** und das Verhalten der Seite zuständig.
 
-Blogs, Wikis (wie Wikipedia), soziale Netzwerke (wie Facebook) und Videoplattformen (wie YouTube) explodierten. Die Technologie, die dies ermöglichte, war **AJAX (Asynchronous JavaScript and XML)**. AJAX erlaubte es einer Webseite, Daten im Hintergrund vom Server nachzuladen, ohne die gesamte Seite neu laden zu müssen. Plötzlich fühlten sich Webseiten an wie Desktop-Anwendungen – schnell, flüssig und interaktiv. Google Maps war eines der ersten Paradebeispiele, das zeigte, was mit dieser Technik möglich war.
+Diese Trennung ist bis heute das wichtigste Grundprinzip moderner Webentwicklung. Sie macht den Code sauberer, wartbarer und zugänglicher.
 
-#### Die mobile Revolution und das lebendige HTML5
+#### Web 2.0: Das interaktive und soziale Web (2001–2008)
 
-Im Jahr 2007 stellte Apple das erste iPhone vor. Dieses Ereignis veränderte das Web erneut von Grund auf. Plötzlich surften Millionen von Menschen auf kleinen Touchscreens. Webseiten, die für große Monitore und Mauszeiger konzipiert waren, funktionierten auf diesen Geräten nur schlecht oder gar nicht.
+Nachdem der erste Browserkrieg mit einer Dominanz des Internet Explorers geendet hatte, trat eine Phase der relativen Stagnation ein. Doch im Untergrund brodelte es. Neue, standardkonforme Browser wie Mozilla Firefox gewannen an Popularität und forderten die Vormachtstellung von Microsoft heraus.
 
-Gleichzeitig weigerte sich Apple, die damals weitverbreitete Flash-Technologie von Adobe auf dem iPhone zu unterstützen, die für viele Animationen und Videos im Web verantwortlich war. Dies beschleunigte die Entwicklung eines neuen, mächtigen Webstandards: **HTML5**.
+Gleichzeitig veränderte sich die Art, wie das Web genutzt wurde. Es war nicht mehr nur ein Medium zum passiven Konsum von Informationen. Das "Web 2.0" wurde zum Schlagwort. Es beschrieb den Wandel hin zu einer Plattform, auf der Nutzer selbst Inhalte erstellen und teilen konnten. Blogs, Wikis (wie Wikipedia), soziale Netzwerke (wie MySpace und das frühe Facebook) und Videoplattformen (wie YouTube) entstanden.
 
-HTML5 war kein radikaler Bruch mit der Vergangenheit, sondern eine pragmatische Weiterentwicklung. Es wurde entwickelt, um die realen Bedürfnisse von modernen Webanwendungen zu erfüllen. Zu den wichtigsten Neuerungen gehörten:
+Technisch wurde dieser Wandel durch Technologien wie AJAX (Asynchronous JavaScript and XML) ermöglicht. AJAX erlaubte es Webseiten, Daten mit dem Server im Hintergrund auszutauschen, ohne die gesamte Seite neu laden zu müssen. Plötzlich fühlten sich Webanwendungen so reaktionsschnell an wie Desktop-Programme. Google Maps war eine der ersten prominenten Anwendungen, die diese Technik eindrucksvoll demonstrierte. Für HTML bedeutete dies, dass seine Rolle als reines Strukturierungswerkzeug für statische Dokumente nicht mehr ausreichte. Das Web verlangte nach mehr.
 
-*   **Semantische Tags:** Anstatt deine Seite nur mit `<div>`-Containern zu strukturieren, konntest du jetzt selbsterklärende Tags wie `<header>`, `<footer>`, `<nav>`, `<article>` und `<section>` verwenden. Das macht den Code nicht nur für Menschen lesbarer, sondern auch für Suchmaschinen und Screenreader, die den Inhalt besser interpretieren können.
+#### Die mobile Revolution und HTML5: Das moderne Web (seit 2008)
 
-    *Vorher (mit `div`s):*
-    ```html
-    <div id="header">...</div>
-    <div id="nav">...</div>
-    <div class="post">...</div>
-    ```
+Der nächste große Umbruch kam 2007 mit der Vorstellung des ersten iPhones. Das mobile Internet wurde Realität. Websites mussten nun nicht mehr nur auf großen Monitoren, sondern auch auf kleinen Touchscreens funktionieren. Alte Technologien wie Adobe Flash, die für viele interaktive Inhalte und Videos im Web verantwortlich waren, funktionierten auf mobilen Geräten schlecht oder gar nicht.
 
-    *Nachher (mit HTML5):*
-    ```html
-    <header>...</header>
-    <nav>...</nav>
-    <article>...</article>
-    ```
+Die Antwort auf diese neuen Herausforderungen war **HTML5**. Es war kein radikaler Bruch mit der Vergangenheit, sondern eine massive Weiterentwicklung des bestehenden Standards. HTML5 wurde als "Living Standard" konzipiert, der sich kontinuierlich weiterentwickelt, anstatt alle paar Jahre in einer neuen, starren Version veröffentlicht zu werden. Die wichtigsten Neuerungen von HTML5 prägen das Web, wie du es heute kennst:
 
-*   **Native Multimedia-Elemente:** Mit den `<video>`- und `<audio>`-Tags konntest du Videos und Tondateien direkt im Browser abspielen, ohne auf externe Plugins wie Flash angewiesen zu sein. Das war der Todesstoß für Flash und ein großer Sieg für offene Webstandards.
+-   **Semantische Elemente:** HTML5 führte neue Tags ein, die die Struktur einer Seite viel aussagekräftiger beschreiben. Statt generischer `<div>`-Container für alles zu verwenden, gab es nun spezifische Elemente wie `<header>`, `<footer>`, `<nav>`, `<article>` und `<section>`. Das macht den Code nicht nur für Menschen lesbarer, sondern auch für Suchmaschinen und assistierende Technologien (z.B. Screenreader für blinde Menschen).
 
-*   **Leistungsstarke APIs:** HTML5 brachte eine Fülle von Schnittstellen (APIs) für JavaScript mit, die den Browser in eine vollwertige Anwendungsplattform verwandelten. Dazu gehören die Geolocation API (um den Standort des Nutzers abzufragen), Local Storage (um Daten im Browser zu speichern) oder Canvas (um 2D-Grafiken und Animationen zu zeichnen).
+```html
+<body>
+  <header>
+    <h1>Meine fantastische Webseite</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">Über uns</a></li>
+      </ul>
+    </nav>
+  </header>
 
-Im Gegensatz zu früheren Versionen wird HTML5 als **"Living Standard"** (lebendiger Standard) von der WHATWG (Web Hypertext Application Technology Working Group) weiterentwickelt. Das bedeutet, es gibt keine großen, starren Versionssprünge mehr wie von HTML4 zu HTML5. Stattdessen wird der Standard kontinuierlich verbessert und um neue Funktionen erweitert, sobald die Browser sie unterstützen.
+  <main>
+    <article>
+      <h2>Ein wichtiger Artikel</h2>
+      <p>Hier steht der Inhalt...</p>
+    </article>
+  </main>
 
-Die Reise des Webs von 1989 bis heute ist eine faszinierende Geschichte von Innovation, Konkurrenz und dem ständigen Ringen um Offenheit und Standardisierung. Was als einfaches Werkzeug zum Teilen von Forschungsdokumenten begann, hat sich zur wichtigsten Kommunikations- und Informationsplattform der Menschheit entwickelt – und HTML ist und bleibt das fundamentale Skelett, auf dem all das aufgebaut ist.
+  <footer>
+    <p>&copy; 2023 Mein Name</p>
+  </footer>
+</body>
+```
+
+-   **Native Multimedia-Unterstützung:** Mit den `<video>`- und `<audio>`-Tags wurde es endlich möglich, Videos und Audiodateien direkt im Browser abzuspielen, ohne auf externe Plugins wie Flash angewiesen zu sein. Dies war ein entscheidender Schritt für das mobile Web.
+-   **Grafik und Animation:** Die `<canvas>`- und `<svg>`-Elemente eröffneten Webentwicklern mächtige Werkzeuge, um direkt im Browser komplexe Grafiken, Animationen und sogar Spiele zu erstellen.
+-   **Leistungsstarke APIs:** HTML5 brachte eine Fülle von neuen Programmierschnittstellen (APIs) für JavaScript mit, die Webanwendungen viel fähiger machten. Dazu gehören die Geolocation API (um den Standort des Nutzers zu bestimmen), Local Storage (um Daten direkt im Browser zu speichern) und viele mehr.
+
+Seit der Einführung von HTML5 hat sich das Web zu einer unglaublich leistungsfähigen Anwendungsplattform entwickelt. Die Grenzen zwischen nativen Desktop-Anwendungen und Webanwendungen verschwimmen zusehends. Die Reise, die 1989 als einfache Idee zur Organisation von Forschungsdokumenten begann, hat die Welt verändert. HTML steht im Zentrum dieser Entwicklung – eine scheinbar einfache Auszeichnungssprache, die sich immer wieder neu erfunden hat, um den Anforderungen einer sich ständig wandelnden digitalen Landschaft gerecht zu werden.
